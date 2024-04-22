@@ -46,7 +46,7 @@ Mukesh = [
 
 
 
-@pbot.on_message(filters.command("alive"))
+@pbot.on_message(filters.command("marathi"))
 async def restart(client, m: Message):
     await m.delete()
     accha = await m.reply("🤍")
